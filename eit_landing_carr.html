@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EIT — Estudios de Ingeniería en Transporte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p5p4XgzFto7iOLptd+8uXM9rvM6uEzsogP0t/5ykN6l97cO2+p51hK/shBxOTCwLrYYVX3E7Vj7IJ6Vd+6Y7wQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://kit.fontawesome.com/2aaa0bfb6c.js" crossorigin="anonymous" defer></script>
+
+<link rel="stylesheet" href="static/css/style.css">
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <a class="nav-logo" href="#">
+    <div class="logo-mark">
+      <span></span><span></span><span></span><span></span>
+    </div>
+    <span class="nav-wordmark">EIT</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#metodologia">Metodología</a></li>
+    <li><a href="#proyectos">Proyectos</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#contacto" class="nav-cta">Contactar</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-content">
+    <div class="hero-eyebrow">Estudios de Ingeniería en Transporte</div>
+    <h1 class="hero-title">
+      Analizamos hoy<br>
+      <em>para mejorar</em>
+      el mañana
+    </h1>
+    <p class="hero-body">
+      Desarrollamos proyectos de ingeniería vial y de tráfico para todo Chile. 
+      Optimizamos infraestructura de transporte, movilidad urbana y seguridad vial con rigor técnico y visión de futuro.
+    </p>
+    <div class="hero-actions">
+      <a href="#servicios" class="btn-primary">
+        <span>Ver servicios</span>
+        <span>→</span>
+      </a>
+      <a href="#contacto" class="btn-outline">
+        <span>Contáctanos</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="hero-visual-bg"></div>
+    <div class="hero-visual-grid"></div>
+    <div class="hero-stats">
+      <div class="stat-card">
+        <!-- <div class="stat-icon">🛣️</div> -->
+        <div class="stat-number"><span id="cnt1">0</span>+</div>
+        <div class="stat-label">Proyectos viales</div>
+      </div>
+      <div class="stat-card">
+        <!-- <div class="stat-icon">📊</div> -->
+        <div class="stat-number"><span id="cnt2">0</span>+</div>
+        <div class="stat-label">IMIV tramitados</div>
+      </div>
+      <div class="stat-card">
+        <!-- <div class="stat-icon">🏙️</div> -->
+        <div class="stat-number"><span id="cnt3">0</span></div>
+        <div class="stat-label">Regiones cubiertas</div>
+      </div>
+      <div class="stat-card">
+        <!-- <div class="stat-icon">✅</div> -->
+        <div class="stat-number"><span id="cnt4">0</span>%</div>
+        <div class="stat-label">Proyectos aprobados</div>
+      </div>
+    </div>
+    <div class="img-placeholder" title="Foto de proyecto">
+      <!-- <span class="img-placeholder-icon">📷</span> -->
+      <img src="static/img/img_05.webp" alt="Imagen de proyecto vial" style="opacity:.8;">
+      <!-- <span class="img-placeholder-label">Poner imagen de proyecto aquí<br><span style="opacity:.6;font-size:.7em;">Ej: vista aérea de intersección, obra vial, etc.</span></span> -->
+    </div>
+  </div>
+</section>
+
+<div class="road-divider"></div>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <div class="services-header reveal">
+    <div class="section-eyebrow">Lo que hacemos</div>
+    <h2 class="section-title">Nuestros servicios</h2>
+    <p class="section-sub">En EIT nos preocupamos de hacer bien la pega. Contamos con servicios especializados para cada tipo de proyecto, con un equipo que brinda confianza, seguridad y eficiencia.</p>
+  </div>
+
+  <!-- <div class="services-grid" style="display:flex ;flex-wrap:no-wrap; flex-direction:col;  "> -->
+  <div class="services-grid" >
+    <div class="service-card reveal reveal-delay-1">
+      <div class="service-icon"><i class="fas fa-file-alt"></i></div>
+      <div class="service-name">IMIV — Todas las categorías</div>
+      <p class="service-desc">Elaboración y tramitación de Informes de Mitigación de Impacto Vial bajo la Ley de Aportes al Espacio Público, en todas sus categorías.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-2">
+      <div class="service-icon"><i class="fas fa-hard-hat"></i></div>
+      <div class="service-name">Acceso y pavimentación</div>
+      <p class="service-desc">Proyectos de acceso y pavimentación para SERVIU y MOP, con diseño estructural de paquetes de asfalto y hormigón.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-3">
+      <div class="service-icon"><i class="fas fa-traffic-light"></i></div>
+      <div class="service-name">Señalización vial</div>
+      <p class="service-desc">Proyectos de señalización para Dirección de Tránsito y Dirección de Vialidad. También ejecutamos demarcaciones e instalación en terreno.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-1">
+      <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+      <div class="service-name">Semaforización y modelación</div>
+      <p class="service-desc">Proyectos de semaforización y modelaciones de tránsito para UOCT. Diseño de ITS y sistemas de gestión semafórica.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-2">
+      <div class="service-icon"><i class="fas fa-ruler-combined"></i></div>
+      <div class="service-name">Ingeniería civil</div>
+      <p class="service-desc">Gestión integral de proyectos de ingeniería civil, desde el diseño geométrico y estructural hasta la tramitación ante organismos competentes.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-3">
+      <div class="service-icon"><i class="fas fa-compass"></i></div>
+      <div class="service-name">Asesorías de transporte</div>
+      <p class="service-desc">Asesorías en operaciones de transporte: gestión de flota, seguridad operacional, normativa vigente y comex.</p>
+    </div>
+  </div>
+</section>
+
+<div class="road-divider"></div>
+
+<!-- METODOLOGÍA -->
+<section id="metodologia">
+  <div class="reveal">
+    <div class="section-eyebrow">Cómo trabajamos</div>
+    <h2 class="section-title">Método EIT</h2>
+    <p class="section-sub">Cada proyecto pasa por un proceso técnico riguroso, desde el análisis inicial hasta la entrega y seguimiento ante los organismos reguladores.</p>
+  </div>
+
+  <div class="process-layout">
+    <div class="process-steps">
+      <div class="process-step reveal">
+        <div class="step-number">01</div>
+        <div class="step-content">
+          <h3>Análisis y diagnóstico</h3>
+          <p>Levantamiento de datos, aforos de tráfico, estudios de origen-destino y diagnóstico de la situación actual de la red vial.</p>
+        </div>
+      </div>
+      <div class="process-step reveal reveal-delay-1">
+        <div class="step-number">02</div>
+        <div class="step-content">
+          <h3>Diseño y modelación</h3>
+          <p>Diseño geométrico y estructural, modelación de flujos vehiculares, análisis de capacidad vial y simulación de escenarios.</p>
+        </div>
+      </div>
+      <div class="process-step reveal reveal-delay-2">
+        <div class="step-number">03</div>
+        <div class="step-content">
+          <h3>Elaboración del proyecto</h3>
+          <p>Desarrollo de memorias de cálculo, planos, especificaciones técnicas y presupuesto conforme a normativas locales vigentes.</p>
+        </div>
+      </div>
+      <div class="process-step reveal reveal-delay-3">
+        <div class="step-number">04</div>
+        <div class="step-content">
+          <h3>Tramitación y aprobación</h3>
+          <p>Gestión ante SEREMI, MINVU, SERVIU, MOP, Dirección de Tránsito y UOCT. Acompañamiento hasta la aprobación del proyecto.</p>
+        </div>
+      </div>
+      <div class="process-step reveal reveal-delay-4">
+        <div class="step-number">05</div>
+        <div class="step-content">
+          <h3>Ejecución y supervisión</h3>
+          <p>Supervisión técnica de obras, instalación de señales y demarcaciones, y entrega de informes de cumplimiento.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="process-highlight reveal reveal-delay-2">
+      <span class="highlight-tag">Nuestra promesa</span>
+      <div class="highlight-quote">
+        Hacemos bien<br>
+        <strong>la pega.</strong>
+      </div>
+      <div class="highlight-items">
+        <div class="highlight-item">
+          <span class="hi-icon"><i class="fas fa-globe-americas"></i></span>
+          <div class="hi-text">
+            <strong>Cobertura nacional</strong>
+            Proyectos en todo el territorio de Chile, urbano y rural.
+          </div>
+        </div>
+        <div class="highlight-item">
+          <span class="hi-icon"><i class="fas fa-scale-balanced"></i></span>
+          <div class="hi-text">
+            <strong>Normativa vigente</strong>
+            Proyectos alineados con la regulación chilena, Ley de Aportes al Espacio Público incluida.
+          </div>
+        </div>
+        <div class="highlight-item">
+          <span class="hi-icon"><i class="fas fa-handshake"></i></span>
+          <div class="hi-text">
+            <strong>Equipo comprometido</strong>
+            Confianza, seguridad y eficiencia en cada etapa del proyecto.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- IMIV -->
+<section id="imiv">
+  <div class="imiv-grid">
+    <div class="imiv-content reveal">
+      <div class="section-eyebrow">Especialidad técnica</div>
+      <h2>Proyectos viales e IMIV para Chile</h2>
+      <p>
+        Los proyectos de ingeniería vial y de tráfico son el instrumento que optimiza la infraestructura de transporte y la movilidad, tanto urbana como rural. Abarcan el diseño geométrico de caminos, gestión de pavimentos, seguridad vial y mitigación de impactos vehiculares en el entorno local.
+      </p>
+      <p>
+        En Chile, esto se traduce en la elaboración y tramitación de los <strong>Informes de Mitigación de Impacto Vial (IMIV)</strong>, gestionados bajo la Ley de Aportes al Espacio Público. EIT tiene experiencia en todas las categorías de IMIV ante los organismos competentes.
+      </p>
+      <div class="imiv-tags">
+        <span class="tag">Diseño geométrico</span>
+        <span class="tag">Gestión de pavimentos</span>
+        <span class="tag">Seguridad vial</span>
+        <span class="tag">Semaforización ITS</span>
+        <span class="tag">Ley Aportes EP</span>
+        <span class="tag">IMIV Cat. 1 - 4</span>
+      </div>
+    </div>
+
+    <div class="imiv-pillars reveal reveal-delay-2">
+      <div class="pillar">
+        <div class="pillar-icon"><i class="fas fa-ruler"></i></div>
+        <h4>Diseño geométrico y estructural</h4>
+        <p>Trazado de rutas, curvas, peraltes, intersecciones y paquetes estructurales (asfalto, hormigón).</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon"><i class="fas fa-road"></i></div>
+        <h4>Ingeniería de tráfico</h4>
+        <p>Análisis de capacidad vial, flujos vehiculares, diseño de semaforización y sistemas ITS.</p>
+      </div>
+      <div class="pillar">
+        
+        <div class="pillar-icon"><i class="fa-solid fa-road-barrier"></i></div>
+        <h4>Gestión de seguridad vial</h4>
+        <p>Señalización vertical y horizontal, barreras de contención y reductores de velocidad.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon"><i class="fas fa-file"></i></div>
+        <h4>Estudios de impacto</h4>
+        <p>Elaboración y tramitación de IMIV bajo la Ley de Aportes al Espacio Público en Chile.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA PROYECTOS -->
+<section id="proyectos" style="background:var(--light); padding-top:80px; padding-bottom:80px;">
+  <div class="reveal" style="margin-bottom:3rem;">
+    <div class="section-eyebrow">Nuestro trabajo</div>
+    <h2 class="section-title">Proyectos ejecutados</h2>
+    <p class="section-sub">Aquí irán fotos reales de proyectos. Por ahora los espacios están reservados.</p>
+  </div>
+
+  <div style="display:grid; grid-template-columns: 1.6fr 1fr 1fr; grid-template-rows: 280px 220px; gap:8px;" class="reveal">
+    <!-- Foto grande -->
+    <div style="grid-row: 1 / 3; background:var(--border); border-radius:6px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.8rem; border:2.5px dashed #b0bfcf; cursor:pointer; transition:border-color .2s;" onmouseenter="this.style.borderColor='var(--blue)'" onmouseleave="this.style.borderColor='#b0bfcf'">
+      <div style="font-family:'Barlow',sans-serif; font-size:.72rem; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); text-align:center; padding:0 1.5rem; line-height:1.6;">
+        <!-- Poner imagen proyecto aquí<br> -->
+         <img src="static/img/img_06.webp" alt="Imagen de proyecto vial">
+        <span style="font-weight:400; font-size:.9em; text-transform:none; letter-spacing:0;">Imagen principal — ej: obra de pavimentación, señalización en terreno</span>
+      </div>
+    </div>
+    <!-- Foto 2 -->
+    <div style="background:var(--border); border-radius:6px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.6rem; border:2.5px dashed #b0bfcf; cursor:pointer; transition:border-color .2s;" onmouseenter="this.style.borderColor='var(--blue)'" onmouseleave="this.style.borderColor='#b0bfcf'">
+      <div style="font-family:'Barlow',sans-serif; font-size:.68rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); text-align:center; padding:0 1rem; line-height:1.6;">
+        <!-- Poner imagen proyecto aquí<br> -->
+          <img src="static/img/img_01.webp" alt="Imagen de proyecto vial">
+        <span style="font-weight:400; text-transform:none; letter-spacing:0;">Ej: intersección, IMIV en trámite</span>
+      </div>
+    </div>
+    <!-- Foto 3 -->
+    <div style="background:var(--border); border-radius:6px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.6rem; border:2.5px dashed #b0bfcf; cursor:pointer; transition:border-color .2s;" onmouseenter="this.style.borderColor='var(--blue)'" onmouseleave="this.style.borderColor='#b0bfcf'">
+      <div style="font-family:'Barlow',sans-serif; font-size:.68rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); text-align:center; padding:0 1rem; line-height:1.6;">
+        <!-- Poner imagen proyecto aquí<br> -->
+          <img src="static/img/img_02.webp" alt="Imagen de proyecto vial">
+        <span style="font-weight:400; text-transform:none; letter-spacing:0;">Ej: modelación de tránsito, semaforización</span>
+      </div>
+    </div>
+    <!-- Foto 4 -->
+    <div style="background:var(--border); border-radius:6px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.6rem; border:2.5px dashed #b0bfcf; cursor:pointer; transition:border-color .2s;" onmouseenter="this.style.borderColor='var(--blue)'" onmouseleave="this.style.borderColor='#b0bfcf'">
+      <div style="font-family:'Barlow',sans-serif; font-size:.68rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); text-align:center; padding:0 1rem; line-height:1.6;">
+        <!-- Poner imagen proyecto aquí<br> -->
+          <img src="static/img/img_03.webp" alt="Imagen de proyecto vial">
+        <span style="font-weight:400; text-transform:none; letter-spacing:0;">Ej: demarcación horizontal, señal instalada</span>
+      </div>
+    </div>
+    <!-- Foto 5 -->
+    <div style="background:var(--border); border-radius:6px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.6rem; border:2.5px dashed #b0bfcf; cursor:pointer; transition:border-color .2s;" onmouseenter="this.style.borderColor='var(--blue)'" onmouseleave="this.style.borderColor='#b0bfcf'">
+      <div style="font-family:'Barlow',sans-serif; font-size:.68rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); text-align:center; padding:0 1rem; line-height:1.6;">
+        <!-- Poner imagen proyecto aquí<br> -->
+          <img src="static/img/img_04.webp" alt="Imagen de proyecto vial">
+        <span style="font-weight:400; text-transform:none; letter-spacing:0;">Ej: proyecto terminado, equipo en terreno</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="road-divider"></div>
+
+<!-- NOSOTROS -->
+<section id="nosotros">
+  <div class="reveal">
+    <div class="section-eyebrow" style="color:var(--sky);">Quiénes somos</div>
+    <h2 class="section-title">Somos EIT</h2>
+    <p class="section-sub">Estudios de Ingeniería en Transporte para todo el territorio de Chile. Conoce cómo trabajamos para crear un mejor país.</p>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-left reveal">
+      <p>
+        Somos un equipo de ingenieros especializados en transporte y movilidad, con presencia en todo Chile. Nuestro enfoque es técnico, riguroso y orientado a resultados: <strong>desarrollamos proyectos que se aprueban y se ejecutan.</strong>
+      </p>
+      <p>
+        Entendemos que cada proyecto vial impacta la vida de las personas. Por eso combinamos análisis profundo, tecnología de modelación y conocimiento de la normativa chilena para entregar soluciones que realmente funcionan.
+      </p>
+      <p>
+        Trabajamos con municipios, empresas privadas, constructoras y organismos públicos, adaptando nuestra metodología a las necesidades específicas de cada cliente.
+      </p>
+      <div class="about-coverage">
+        <span class="coverage-icon"><i class="fas fa-map"></i></span>
+        <div class="coverage-text">
+          Todo Chile
+          <small>Cobertura nacional — proyectos urbanos y rurales</small>
+        </div>
+      </div>
+      <!-- Foto equipo -->
+      <div style="margin-top:2rem; height:180px; background:rgba(255,255,255,.06); border-radius:6px; border:2px dashed rgba(255,255,255,.18); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.6rem; cursor:pointer; transition:border-color .2s;" onmouseenter="this.style.borderColor='rgba(79,163,200,.6)'" onmouseleave="this.style.borderColor='rgba(255,255,255,.18)'">
+        <span style="font-size:1.8rem; opacity:.4;"><i class="fas fa-camera"></i></span>
+        <div style="font-family:'Barlow',sans-serif; font-size:.7rem; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:rgba(255,255,255,.3); text-align:center; padding:0 1rem;">
+          Poner imagen proyecto aquí<br>
+          <span style="font-weight:400; text-transform:none; letter-spacing:0; font-size:.9em;">Ej: foto del equipo EIT o proyecto destacado</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-values reveal reveal-delay-2">
+      <div class="value-item">
+        <span class="value-ico"><i class="fas fa-bullseye"></i></span>
+        <div class="value-body">
+          <h4>Proyectos viales y de tráfico</h4>
+          <p>Desarrollamos y ejecutamos proyectos de ingeniería con rigor técnico y cumplimiento normativo.</p>
+        </div>
+      </div>
+      <div class="value-item">
+        <span class="value-ico"><i class="fas fa-landmark"></i></span>
+        <div class="value-body">
+          <h4>Ingeniería civil</h4>
+          <p>Gestionamos proyectos de ingeniería civil de principio a fin, con coordinación ante organismos públicos.</p>
+        </div>
+      </div>
+      <div class="value-item">
+        <span class="value-ico"><i class="fas fa-lightbulb"></i></span>
+        <div class="value-body">
+          <h4>Asesorías empresariales</h4>
+          <p>Ayudamos a empresas a mejorar su operación de transporte: flota, normativa, seguridad y logística.</p>
+        </div>
+      </div>
+      <div class="value-item">
+        <span class="value-ico"><i class="fas fa-seedling"></i></span>
+        <div class="value-body">
+          <h4>Movilidad sostenible</h4>
+          <p>Integramos criterios de sostenibilidad y seguridad vial en cada diseño, pensando en el largo plazo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="reveal">
+    <div class="section-eyebrow">Trabajemos juntos</div>
+    <h2 class="section-title">Contacto</h2>
+    <p class="section-sub">¿Tienes un proyecto vial o de transporte? Cuéntanos. Respondemos rápido y con criterio técnico desde el primer contacto.</p>
+  </div>
+
+  <div class="contact-wrap">
+    <div class="reveal">
+      <div class="contact-info-block">
+        <a href="mailto:eit.estudiosdeingenieria@gmail.com" class="contact-item">
+          <div class="service-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <div class="ci-label">Email</div>
+            <div class="ci-value">eit.estudiosdeingenieria@gmail.com</div>
+          </div>
+        </a>
+        <a href="tel:+56958090983" class="contact-item">
+          <div class="service-icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <div class="ci-label">Teléfono / WhatsApp</div>
+            <div class="ci-value">+56 9 5809 0983</div>
+          </div>
+        </a>
+        <div class="contact-item" style="cursor:default;">
+          <div class="service-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <div class="ci-label">Cobertura</div>
+            <div class="ci-value">Todo el territorio de Chile</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social-row" style="margin-top:1.5rem;">
+        <a href="https://www.instagram.com/estudiosingenieriatransportes" target="_blank" class="social-btn">
+          <span class="social-icon"><i class="fab fa-instagram"></i></span>
+          <span>Instagram</span>
+        </a>
+        <a href="https://web.facebook.com/profile.php?id=61589708905987" target="_blank" class="social-btn">
+          <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+          <span>Facebook</span>
+        </a>
+      </div>
+      <p style="font-size:.78rem;color:var(--muted);margin-top:.8rem;">TikTok y LinkedIn próximamente.</p>
+    </div>
+
+    <div class="contact-form-card reveal reveal-delay-2">
+      <div class="form-title">Cuéntanos tu proyecto</div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Nombre</label>
+          <input type="text" placeholder="Tu nombre">
+        </div>
+        <div class="form-group">
+          <label>Empresa / Organización</label>
+          <input type="text" placeholder="Opcional">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="tu@correo.cl">
+      </div>
+      <div class="form-group">
+        <label>Tipo de proyecto</label>
+        <select>
+          <option value="">Selecciona una categoría</option>
+          <option>IMIV</option>
+          <option>Proyecto de señalización</option>
+          <option>Proyecto de semaforización</option>
+          <option>Acceso y pavimentación</option>
+          <option>Asesoría de transporte</option>
+          <option>Otro</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Descripción del proyecto</label>
+        <textarea placeholder="Cuéntanos brevemente en qué consiste tu proyecto, ubicación aproximada y plazos si los tienes…"></textarea>
+      </div>
+      <button class="form-submit" onclick="handleSubmit(this)">
+        <span>Enviar consulta</span>
+        <span>→</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div class="footer-brand">EIT <span>·</span> Estudios de Ingeniería en Transporte</div>
+    <div class="footer-tagline">Analizamos hoy para mejorar el mañana · Chile</div>
+  </div>
+  <ul class="footer-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#imiv">IMIV</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <div class="footer-copy">© 2026 EIT. Todos los derechos reservados.</div>
+</footer>
+
+<script>
+  // Nav scroll effect
+  const nav = document.getElementById('mainNav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 20);
+  });
+
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  revealEls.forEach(el => observer.observe(el));
+
+  // Animated counters
+  function animateCounter(el, target, duration = 1800) {
+    let start = 0;
+    const step = target / (duration / 16);
+    const timer = setInterval(() => {
+      start = Math.min(start + step, target);
+      el.textContent = Math.floor(start);
+      if (start >= target) clearInterval(timer);
+    }, 16);
+  }
+
+  const countersStarted = { value: false };
+  const heroObserver = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting && !countersStarted.value) {
+      countersStarted.value = true;
+      setTimeout(() => animateCounter(document.getElementById('cnt1'), 50), 300);
+      setTimeout(() => animateCounter(document.getElementById('cnt2'), 30), 500);
+      setTimeout(() => animateCounter(document.getElementById('cnt3'), 15), 700);
+      setTimeout(() => animateCounter(document.getElementById('cnt4'), 97), 900);
+    }
+  }, { threshold: 0.3 });
+  heroObserver.observe(document.querySelector('.hero-stats'));
+
+  // Form submit feedback
+  function handleSubmit(btn) {
+    btn.innerHTML = '<span>✓ Mensaje enviado</span>';
+    btn.style.background = '#2E6DA4';
+    btn.disabled = true;
+    setTimeout(() => {
+      btn.innerHTML = '<span>Enviar consulta</span><span>→</span>';
+      btn.style.background = '';
+      btn.disabled = false;
+    }, 3000);
+  }
+</script>
+</body>
+</html>
