@@ -115,7 +115,7 @@
     font-family: 'Barlow', sans-serif;
     font-size: .78rem; font-weight: 600;
     letter-spacing: .18em; text-transform: uppercase;
-    color: var(--sky);
+    color: var(--blue);
     display: flex; align-items: center; gap: 10px;
     margin-bottom: 1.5rem;
   }
