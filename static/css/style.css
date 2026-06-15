@@ -75,6 +75,17 @@
   }
   .nav-cta:hover { background: var(--blue) !important; color: var(--white) !important; }
 
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: .5rem;
+    color: var(--navy);
+    font-size: 1.5rem;
+  }
+  .menu-toggle:hover { color: var(--blue); }
+
   /* ──────────────── HERO ──────────────── */
   .hero {
     min-height: 100vh;
@@ -813,10 +824,72 @@
     }
     .gallery-cell:first-child { grid-row: auto; }
     .gallery-cell { min-height: 200px; }
-    .nav-links { display: none; }
+    .menu-toggle { display: block; }
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 68px;
+      left: 0;
+      right: 0;
+      background: rgba(255,255,255,.98);
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+      padding: 1rem 6vw;
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 4px 20px rgba(26,58,92,.12);
+    }
+    .nav-links.open { display: flex; }
+    .nav-links li { border-bottom: 1px solid var(--border); }
+    .nav-links li:last-child { border-bottom: none; }
+    .nav-links a {
+      padding: 1rem 0;
+      width: 100%;
+    }
+    .nav-links .nav-cta {
+      padding: 1rem;
+      text-align: center;
+      margin-top: .5rem;
+    }
     section { padding: 70px 6vw; }
     .hero-content { padding: 60px 6vw; }
     .form-row { grid-template-columns: 1fr; }
+    .hero-title { font-size: 2.2rem !important; }
+    .hero-body { font-size: .95rem; }
+    .hero-content img { width: 20rem !important; }
+  }
+
+  @media (max-width: 600px) {
+    :root {
+      --nav-height: 56px;
+    }
+    nav { height: 56px; }
+    .hero-stats {
+      grid-template-columns: 1fr;
+      gap: .5rem;
+      padding: .75rem;
+    }
+    .stat-card { padding: .8rem .6rem; }
+    .stat-number { font-size: 1.8rem !important; }
+    .stat-label { font-size: .68rem; }
+    .hero-content { padding: 40px 5vw; }
+    .hero-title { font-size: 1.8rem !important; }
+    .hero-body { margin-bottom: 1.5rem; }
+    .hero-actions { flex-direction: column; }
+    .btn-primary, .btn-outline { width: 100%; text-align: center; }
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+    .service-card { padding: 2rem 1.5rem; }
+    .process-highlight { padding: 2rem 1.5rem; }
+    .imiv-grid { gap: 2rem; }
+    .imiv-pillars { grid-template-columns: 1fr; }
+    .about-grid { gap: 2rem; }
+    .contact-wrap { gap: 2rem; }
+    .gallery-cell { min-height: 180px; }
+    .gallery-caption { font-size: .65rem; padding: 1.5rem 1rem .5rem; }
+    .contact-form-card { padding: 1.8rem 1.2rem; }
+    .footer-links { gap: 1rem; }
   }
 
   @media (prefers-reduced-motion: reduce) {

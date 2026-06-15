@@ -31,6 +31,9 @@
     </div>
     <span class="nav-wordmark">EIT</span>
   </a>
+  <button class="menu-toggle" aria-label="Abrir menú">
+    <i class="fas fa-bars"></i>
+  </button>
   <ul class="nav-links">
     <li><a href="#servicios">Servicios</a></li>
     <li><a href="#metodologia">Metodología</a></li>
@@ -496,6 +499,22 @@
 </footer>
 
 <script>
+  // Mobile menu toggle
+  const menuToggle = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+    menuToggle.innerHTML = navLinks.classList.contains('open') 
+      ? '<i class="fas fa-times"></i>' 
+      : '<i class="fas fa-bars"></i>';
+  });
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+    });
+  });
+
   // Nav scroll effect
   const nav = document.getElementById('mainNav');
   window.addEventListener('scroll', () => {
